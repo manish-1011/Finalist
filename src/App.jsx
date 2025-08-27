@@ -20,7 +20,7 @@ export default function App() {
   const [lang, setLang] = useState(localStorage.getItem("ks_lang") || "hi");
   const [mode, setMode] = useState(localStorage.getItem("ks_mode") || "personal");
   const [pincode, setPincode] = useState(localStorage.getItem("ks_pin") || "");
-  const [email] = useState("TeamKisanSathi@gmail.com");
+  const [email] = useState("TeamKisanSaathi@gmail.com");
   const [showInitialSetup, setShowInitialSetup] = useState(() => {
     const urlParams = new URLSearchParams(window.location.search);
     if (urlParams.has('reset_setup')) {
